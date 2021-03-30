@@ -23,6 +23,8 @@ setResults(response.data[0]);
     }
     return(
         <div className="Dictionary">
+            <h1>Dictionary</h1>
+            <h3>What word are you looking for? </h3>
           <form onSubmit={search}>
               <input type="search" onChange={handleKeywordChange}/>
           </form>

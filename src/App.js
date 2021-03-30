@@ -11,7 +11,7 @@ export default function App() {
 </main>
       </header>
 <footer className="App-footer">
-  Coded by Tiziana Tortone
+  Coded by <a href="https://github.com/tizianatortone/dictionary-app">Tiziana Tortone</a>
 </footer>
       </div>
     </div>
