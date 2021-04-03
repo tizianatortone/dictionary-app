@@ -23,11 +23,14 @@ setResults(response.data[0]);
     }
     return(
         <div className="Dictionary">
-            <h1>Dictionary</h1>
+            <h1 className="title">Dictionary 📖 </h1>
             <h3>What word are you looking for? </h3>
+            <section>
           <form onSubmit={search}>
-              <input type="search" onChange={handleKeywordChange}/>
+              <input type="search" placeholder="Type here..." onChange={handleKeywordChange}/>
           </form>
+
+          </section>
           <Results results={results}/>
         </div>
     )

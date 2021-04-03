@@ -1,0 +1,9 @@
+.Meaning h3 {
+  text-transform: capitalize;
+}
+
+.Meaning .example {
+  font-size: 13px;
+  opacity: 0.6;
+  margin-top: 7px;
+}
