@@ -3,11 +3,6 @@
   padding: 0;
 }
 
-.Synonyms p {
-  opacity: 0.8;
-  font-size: 15px;
-}
-
 .Synonyms li {
   display: inline-block;
   padding-right: 15px;
